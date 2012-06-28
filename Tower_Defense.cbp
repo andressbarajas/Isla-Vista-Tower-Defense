@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tower Defense" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Tower Defense" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-audio-s" />
+					<Add option="-lsfml-graphics-s" />
+					<Add option="-lsfml-window-s" />
+					<Add option="-lsfml-system-s" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Tower Defense" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsfml-audio-s" />
+					<Add option="-lsfml-graphics-s" />
+					<Add option="-lsfml-window-s" />
+					<Add option="-lsfml-system-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lsfml-graphics-s" />
+			<Add option="-lsfml-window-s" />
+			<Add option="-lsfml-system-s" />
+		</Linker>
+		<Unit filename="include\Animations\cAlphaFader.h" />
+		<Unit filename="include\Animations\cAnimation.h" />
+		<Unit filename="include\Animations\cBlinker.h" />
+		<Unit filename="include\Animations\cExpXYMover.h" />
+		<Unit filename="include\Animations\cLogXYMover.h" />
+		<Unit filename="include\Buttons\cBasicButton.h" />
+		<Unit filename="include\Buttons\cMenuButton.h" />
+		<Unit filename="include\Buttons\cTowerButton.h" />
+		<Unit filename="include\Drawables\cBanner.h" />
+		<Unit filename="include\Drawables\cButton.h" />
+		<Unit filename="include\Drawables\cHealthBar.h" />
+		<Unit filename="include\Drawables\cMoney.h" />
+		<Unit filename="include\Drawables\cPopup.h" />
+		<Unit filename="include\Drawables\cScene.h" />
+		<Unit filename="include\Enemies\cAirEnemy.h" />
+		<Unit filename="include\Enemies\cEnemy.h" />
+		<Unit filename="include\Enemies\cGroundEnemy.h" />
+		<Unit filename="include\Enemies\cSpawner.h" />
+		<Unit filename="include\Menus\cMainMenu.h" />
+		<Unit filename="include\Menus\cTitle.h" />
+		<Unit filename="include\Menus\cTutorial.h" />
+		<Unit filename="include\Panels\cDescriptionPanel.h" />
+		<Unit filename="include\Panels\cMapPanel.h" />
+		<Unit filename="include\Panels\cMenuPanel.h" />
+		<Unit filename="include\Panels\cPanelInterface.h" />
+		<Unit filename="include\Panels\cTowerPanel.h" />
+		<Unit filename="include\Popups\cPause.h" />
+		<Unit filename="include\Popups\cPopup.h" />
+		<Unit filename="include\Popups\cQuit.h" />
+		<Unit filename="include\SFMLMappy.h" />
+		<Unit filename="include\Towers\cAirTower.h" />
+		<Unit filename="include\Towers\cBasicTower.h" />
+		<Unit filename="include\Towers\cBullet.h" />
+		<Unit filename="include\Towers\cGroundTower.h" />
+		<Unit filename="include\Towers\cMultiBullet.h" />
+		<Unit filename="include\Towers\cTower.h" />
+		<Unit filename="include\Triggers\cTrigger.h" />
+		<Unit filename="include\cApplication.h" />
+		<Unit filename="include\cGamePlay.h" />
+		<Unit filename="include\cGameStateBase.h" />
+		<Unit filename="include\cGenMenu.h" />
+		<Unit filename="include\cHomeBase.h" />
+		<Unit filename="include\cLevel.h" />
+		<Unit filename="include\cLevelGen.h" />
+		<Unit filename="include\cPlayer.h" />
+		<Unit filename="include\cSpriteObj.h" />
+		<Unit filename="include\cTimer.h" />
+		<Unit filename="include\cWidget.h" />
+		<Unit filename="include\copied_ptr.h" />
+		<Unit filename="include\sMovement.h" />
+		<Unit filename="include\tCounter.h" />
+		<Unit filename="src\Animations\cAlphaFader.cpp" />
+		<Unit filename="src\Animations\cAnimation.cpp" />
+		<Unit filename="src\Animations\cBlinker.cpp" />
+		<Unit filename="src\Animations\cExpXYMover.cpp" />
+		<Unit filename="src\Animations\cLogXYMover.cpp" />
+		<Unit filename="src\Buttons\cBasicButtons.cpp" />
+		<Unit filename="src\Buttons\cMenuButton.cpp" />
+		<Unit filename="src\Buttons\cTowerButton.cpp" />
+		<Unit filename="src\Drawables\cBanner.cpp" />
+		<Unit filename="src\Drawables\cButton.cpp" />
+		<Unit filename="src\Drawables\cHealthBar.cpp" />
+		<Unit filename="src\Drawables\cMoney.cpp" />
+		<Unit filename="src\Drawables\cPopup.cpp" />
+		<Unit filename="src\Drawables\cScene.cpp" />
+		<Unit filename="src\Enemies\cAirEnemy.cpp" />
+		<Unit filename="src\Enemies\cEnemy.cpp" />
+		<Unit filename="src\Enemies\cGroundEnemy.cpp" />
+		<Unit filename="src\Enemies\cSpawner.cpp" />
+		<Unit filename="src\Menus\cMainMenu.cpp" />
+		<Unit filename="src\Menus\cTitle.cpp" />
+		<Unit filename="src\Menus\cTutorial.cpp" />
+		<Unit filename="src\Panels\cDescriptionPanel.cpp" />
+		<Unit filename="src\Panels\cMapPanel.cpp" />
+		<Unit filename="src\Panels\cMenuPanel.cpp" />
+		<Unit filename="src\Panels\cTowerPanel.cpp" />
+		<Unit filename="src\Popups\cPause.cpp" />
+		<Unit filename="src\Popups\cQuit.cpp" />
+		<Unit filename="src\SFMLMappy.cpp" />
+		<Unit filename="src\Towers\cAirTower.cpp" />
+		<Unit filename="src\Towers\cBasicTower.cpp" />
+		<Unit filename="src\Towers\cBullet.cpp" />
+		<Unit filename="src\Towers\cGroundTower.cpp" />
+		<Unit filename="src\Towers\cMultiBullet.cpp" />
+		<Unit filename="src\Towers\cTower.cpp" />
+		<Unit filename="src\Triggers\cTrigger.cpp" />
+		<Unit filename="src\cGamePlay.cpp" />
+		<Unit filename="src\cGameStateBase.cpp" />
+		<Unit filename="src\cGenMenu.cpp" />
+		<Unit filename="src\cHomeBase.cpp" />
+		<Unit filename="src\cLevel.cpp" />
+		<Unit filename="src\cLevelGen.cpp" />
+		<Unit filename="src\cPlayer.cpp" />
+		<Unit filename="src\cSpriteObj.cpp" />
+		<Unit filename="src\cTimer.cpp" />
+		<Unit filename="src\cWidget.cpp" />
+		<Unit filename="src\main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
